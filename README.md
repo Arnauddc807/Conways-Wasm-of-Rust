@@ -12,3 +12,5 @@ made using [wasm-pack](https://github.com/rustwasm/wasm-pack) & [create-wasm-app
 
 ### 🚩 Start npm 
 ```npm start```
+
+![screenshot](https://github.com/Arnauddc807/Conways-Wasm-of-Rust/blob/master/game_of_life.png?raw=true)
