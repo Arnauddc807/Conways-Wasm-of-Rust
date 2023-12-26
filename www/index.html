@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <canvas id="game-of-live-canvas"></canvas>
+    <div id="buttons">
+      <h1>Conway's Game of Life</h1>
+      <p id="label">50</p>
+      <input type="range" min="0" max="100" value="50" class="slider" id="slider">
+      <button id="reset">Reset</button>
+      <div id="mediakeys">
+        <button id="play">⏯</button>
+        <button id="step">⏭</button>
+      </div>
+    </div>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>
