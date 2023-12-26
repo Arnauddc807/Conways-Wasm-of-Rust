@@ -3,9 +3,12 @@
 
 made using [wasm-pack](https://github.com/rustwasm/wasm-pack) & [create-wasm-app](https://github.com/rustwasm/create-wasm-app)
 
-## How to run
-* wasm-pack build
+## Usage
+### 🛠️ Build the wasm binary
+```wasm-pack build```
 
-* cd www/
+### 📁 Step into the www directory
+```cd www/```
 
-* npm start
+### 🚩 Start npm 
+```npm start```
